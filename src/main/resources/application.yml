@@ -1,0 +1,8 @@
+server:
+    port: 9001
+    tomcat:
+        connection-timeout: 2s  ## how much time to wait for client to connect
+        keep-alive-timeout: 15s ## how long to keep connection open while waiting for new client 
+        threads:
+            max: 50 
+            min-spare: 5
